@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="demo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chest X-ray Pneumonia Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="chest_xray.jpg" alt="Chest X-ray" class="xray-image">
+        <h1>Chest X-ray Pneumonia Detection</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <button onclick="uploadImage()">Upload Image</button>
+        <div id="loading" style="display: none;">Loading...</div>
+        <div id="resultDisplay" style="display: none;">
+            <h2>Result:</h2>
+            <p id="resultText"></p>
+            <img id="resultImage" src="" alt="Result Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result - Chest X-ray Pneumonia Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="result_image.jpg" alt="Result Image" class="result-image">
+        <h1>Result - Chest X-ray Pneumonia Detection</h1>
+        <div id="resultDisplay">
+            <h2>Result:</h2>
+            <p id="resultText">{{ result }}</p>
+            <img id="resultImage" src="{{ image }}" alt="Result Image">
+        </div>
+    </div>
+</body>
+</html> -->

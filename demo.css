@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://www.svhlunghealth.com.au/Images/UserUploadedImages/3447/4_SVH_Lung_Health_Pneumonia_final_1080p.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adding opacity to the background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+#uploadButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#uploadButton:hover {
+    background-color: #45a049;
+}
+
+#loading {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#resultDisplay {
+    margin-top: 20px;
+}
+
+#resultText {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#resultImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
